@@ -392,3 +392,14 @@
     align-items:center;
     margin:15px 0;
 }
+
+@media (max-width: 768px){
+
+    #mapa img{
+        width: 100%;
+        max-width: none;
+        margin: 0 auto;
+        border-radius: 0;
+    }
+
+}
