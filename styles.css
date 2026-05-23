@@ -432,3 +432,24 @@
 @media (max-width: 1080px){
 
 }
+
+#mapa img{
+    width:80%;
+    max-width:1200px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+    border-radius:20px;
+}
+
+@media(max-width:768px){
+
+    #mapa img{
+        width:95%;
+    }
+
+    .cartel-container img{
+        width:95%;
+    }
+
+}
