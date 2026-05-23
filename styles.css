@@ -209,13 +209,13 @@
         margin:0px auto;
     }
     
-    .cartel-container img{
-        width:auto;
-        max-width:auto;
-        height:auto;
-        border-radius:10px;
-        box-shadow:0 10px 25px rgba(0,0,0,.15);
-    }
+   .cartel-container img{
+    width:70%;
+    max-width:800px;
+    height:auto;
+    display:block;
+    margin:auto;
+}
 
     iframe{
     
@@ -415,14 +415,12 @@
     
     }
 
-    #mapa img{
-        width: auto;
-        max-width: auto;
-        height: auto;
-        display: block;
-        margin: 0px auto;
-        border-radius: 20px;
-    }
+   #mapa img{
+    width:80%;
+    max-width:1200px;
+    height:auto;
+    display:block;
+    margin:auto;
 
     #mapa,
 #escucha,
