@@ -227,9 +227,11 @@
     
     }
 
+    /* Buzón ciudadano */
+
 .feedback-form{
     max-width:800px;
-    margin:auto;
+    margin:20px auto;
     display:flex;
     flex-direction:column;
     gap:15px;
@@ -237,9 +239,12 @@
 
 .feedback-form input,
 .feedback-form textarea{
+    width:100%;
     padding:15px;
-    border:2px solid #ddd;
+    border:2px solid #d9d9d9;
     border-radius:12px;
+    background:white;
+    font-family:'Roboto',sans-serif;
     font-size:1rem;
 }
 
@@ -248,14 +253,26 @@
     resize:vertical;
 }
 
+.feedback-form input:focus,
+.feedback-form textarea:focus{
+    outline:none;
+    border-color:var(--verde);
+}
+
 .feedback-form button{
     background:var(--verde);
     color:white;
     border:none;
     padding:15px;
     border-radius:12px;
+    font-size:1rem;
     font-weight:bold;
     cursor:pointer;
+    transition:.3s;
+}
+
+.feedback-form button:hover{
+    transform:translateY(-2px);
 }
     .cards{
     
