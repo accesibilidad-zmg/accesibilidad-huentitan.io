@@ -415,13 +415,6 @@
     
     }
 
-   #mapa img{
-    width:80%;
-    max-width:1200px;
-    height:auto;
-    display:block;
-    margin:auto;
-
     #mapa,
 #escucha,
 #opiniones,
@@ -439,12 +432,5 @@
 }
 
 @media (max-width: 1080px){
-
-    #mapa img{
-        width: 100%;
-        max-width: none;
-        margin: 0 auto;
-        border-radius: 0;
-    }
 
 }
